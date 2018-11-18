@@ -1,7 +1,8 @@
 var express = require("express");
+const path = require('path')
 var app = express();
 
 app.use(express.static('static'))
 
-app.server = app.listen(process.env.PORT || 5000, ()=> console.log('Listening on...'+ app.server.address().port) )
+app.listen(process.env.PORT || 5000, ()=> console.log('Listening on...') )
 
