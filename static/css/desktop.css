@@ -1,155 +1,26 @@
-header {
-    background: rgba(0, 0, 0, 0.6);
-    height: 70px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    vertical-align: center;
-    line-height: 0px;
-}
-
 body {
-    background-color: black;
-    background-image: url("/img/fractals.jpg");
+    background-color: black
 }
 
 #homeDiv {
     width: 100%;
-    text-align: center;
-    position: relative;
-    top: 0px;
-    font-family: "Helvetica";
-    height: 100vh;
-}
-
-#headerText {
-    color: #67C8FF;    
-    font-size: 150%;
-    position: fixed;
-    left: 50%;
-    top: 200px;
-    right: 50%;
-    margin-left: -50%;
-    margin-right: -50%;
-}
-
-#portfolio {
-    height: 100vh;
-    padding-top: 255px;
-}
-
-#portfolioHeader {
-    font-size: 150%;
-    color: #67C8FF;
-    width: 100%;
-    text-align: center;
-    font-family: "Helvetica";
-    position: relative;
-    top: -10px;
-}
-
-#headshot {
-    position: relative;
-    top: 400px;
-    opacity: 0.7;
-    transition: 0.3s ease;
-}
-#headshot:hover {
-    transform: scale(1.1);
-    opacity: .8;
-}
-
-#matrixImg {
-    position: fixed;
-    width: 100%;
-    height: 300px;
-    top: 10px;
-    opacity: 0.2;
-    box-shadow: 10px 10px 50px blue;
-    /** block creates new block element on new line w entire width **/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.portfolioTitle {
-    font-size: 200%;
-    position: relative;
-    left: -245px;
-    color: white;
-    top: -225px;
-    text-decoration: none;
- }
-
-#portfolioArrow {
-   width: 75px;
-   height: 75px;
+   text-align: center;
    position: relative;
-   top: 500px;
+   top: 240px;
+   font-family: "Helvetica"
 }
-
-.portfolioItem {
-   position: relative;
-   padding-bottom: 100px;
-}
-
-.portfolioImg {
-    height: 230px;
-    width: 400px;
-    top: 20px;
-    left: 50px;
-    position: relative;
-}
-
-.portfolioText {
-   position: relative;
-   left: 500px;
-   color: white;
-   top: -230px;
-   width: 700px;
-   font-size: 125%;
-}
-
 h1{
-    color: white;
-    font-family: "Palatino";
-    font-size: 320%;
+   color: white;
+   font-family: "Helvetica";
+   font-size: 300%;
 }
-
-#navImg {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    top: 30px;
-    right: 45px;
-    opacity: 0.7;
-    transition: 0.4s ease;
+a {
+   color: blue;
+   font-size: 200%;
+   padding-right: 75px;
+   padding-left: 75px;
+   text-decoration: none;
 }
-
-#navImg:hover {
-    transform: scale(1.6);
-    opacity: 1;
-}
-
-.navLink {
-    color: blue;
-    font-size: 200%;
-    padding-right: 10%;
-    padding-left: 10%;
-    text-decoration: none;
-    position: relative;
-    left: 35px;
-    z-index: 2;
-}
-
-#navbar {
-    position: fixed;
-    display: block;
-    top: 50px;
-    width: 100%;
-    z-index: 3;
-}
-
 #grey {
-    color: grey
-}
+   color: grey
+} 
